@@ -4,13 +4,12 @@
 #
 Name     : pypi-aiosignal
 Version  : 1.2.0
-Release  : 3
+Release  : 4
 URL      : https://files.pythonhosted.org/packages/27/6b/a89fbcfae70cf53f066ec22591938296889d3cc58fec1e1c393b10e8d71d/aiosignal-1.2.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/27/6b/a89fbcfae70cf53f066ec22591938296889d3cc58fec1e1c393b10e8d71d/aiosignal-1.2.0.tar.gz
 Summary  : aiosignal: a list of registered asynchronous callbacks
 Group    : Development/Tools
 License  : Apache-2.0
-Requires: pypi-aiosignal-filemap = %{version}-%{release}
 Requires: pypi-aiosignal-license = %{version}-%{release}
 Requires: pypi-aiosignal-python = %{version}-%{release}
 Requires: pypi-aiosignal-python3 = %{version}-%{release}
@@ -24,14 +23,6 @@ aiosignal
 .. image:: https://github.com/aio-libs/aiosignal/workflows/CI/badge.svg
 :target: https://github.com/aio-libs/aiosignal/actions?query=workflow%3ACI
 :alt: GitHub status for master branch
-
-%package filemap
-Summary: filemap components for the pypi-aiosignal package.
-Group: Default
-
-%description filemap
-filemap components for the pypi-aiosignal package.
-
 
 %package license
 Summary: license components for the pypi-aiosignal package.
@@ -53,7 +44,6 @@ python components for the pypi-aiosignal package.
 %package python3
 Summary: python3 components for the pypi-aiosignal package.
 Group: Default
-Requires: pypi-aiosignal-filemap = %{version}-%{release}
 Requires: python3-core
 Provides: pypi(aiosignal)
 Requires: pypi(frozenlist)
@@ -74,7 +64,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1652992394
+export SOURCE_DATE_EPOCH=1652994355
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -116,10 +106,6 @@ popd
 
 %files
 %defattr(-,root,root,-)
-
-%files filemap
-%defattr(-,root,root,-)
-/usr/share/clear/filemap/filemap-pypi-aiosignal
 
 %files license
 %defattr(0644,root,root,0755)
