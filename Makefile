@@ -1,5 +1,5 @@
 PKG_NAME := pypi-aiosignal
-URL = https://files.pythonhosted.org/packages/27/6b/a89fbcfae70cf53f066ec22591938296889d3cc58fec1e1c393b10e8d71d/aiosignal-1.2.0.tar.gz
+URL = https://files.pythonhosted.org/packages/ae/67/0952ed97a9793b4958e5736f6d2b346b414a2cd63e82d05940032f45b32f/aiosignal-1.3.1.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
