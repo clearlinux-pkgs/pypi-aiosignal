@@ -7,7 +7,7 @@
 #
 Name     : pypi-aiosignal
 Version  : 1.3.1
-Release  : 21
+Release  : 22
 URL      : https://files.pythonhosted.org/packages/ae/67/0952ed97a9793b4958e5736f6d2b346b414a2cd63e82d05940032f45b32f/aiosignal-1.3.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/ae/67/0952ed97a9793b4958e5736f6d2b346b414a2cd63e82d05940032f45b32f/aiosignal-1.3.1.tar.gz
 Summary  : aiosignal: a list of registered asynchronous callbacks
